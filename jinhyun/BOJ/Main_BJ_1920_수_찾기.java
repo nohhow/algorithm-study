@@ -37,7 +37,7 @@ public class Main_BJ_1920_수_찾기 {
 	public static boolean find(int n) {
 		int lo = 0, hi = N-1;	
 		while(lo <= hi) {
-			int mid = (lo + hi) >> 1;
+			int mid = (lo + hi) / 2;
 			if (nums[mid] == n) {
 				return true;
 			}
